@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment>
+    <power_system>
+        <skz>60</skz>
+        <u>220</u>
+    </power_system>
+    <transmission_line>
+        <l>20</l>
+        <x_per_km>0.414</x_per_km>
+	<r_per_km>0.244</r_per_km>
+    </transmission_line>
+    <transmission_line>
+        <l>30</l>
+        <x_per_km>0.413</x_per_km>
+	<r_per_km>0.159</r_per_km>
+    </transmission_line>
+    <transmission_line>
+        <l>25</l>
+        <x_per_km>0.414</x_per_km>
+	<r_per_km>0.244</r_per_km>
+    </transmission_line>
+    <power_transformer>
+        <ukz>10</ukz>
+        <pkz>170</pkz>
+	<ratio>6.3</ratio>
+	<snom>80</snom>
+	<unom>220</unom>
+    </power_transformer>
+    <fault>
+        <bus>1</bus>
+    </fault>    
+</equipment>
